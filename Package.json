@@ -1,0 +1,15 @@
+{
+  "name": "gta-rp-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with slash commands + Glitch server",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node server.js & node src/bot.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
