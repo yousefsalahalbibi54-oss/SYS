@@ -4,7 +4,7 @@
   "description": "Discord bot with slash commands + Glitch server",
   "main": "src/bot.js",
   "scripts": {
-    "start": "node server.js & node src/bot.js",
+    "start": "node index.js & node src/bot.js",
     "deploy": "node src/deploy-commands.js"
   },
   "dependencies": {
